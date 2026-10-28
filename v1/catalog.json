@@ -1,0 +1,762 @@
+{
+ "schemaVersion": 1,
+ "catalogVersion": "2026-10-28T1846",
+ "currency": "EUR",
+ "robots": [
+  {
+   "id": "dreame-l10s-ultra-gen2",
+   "brand": "Dreame",
+   "model": "L10s Ultra Gen 2",
+   "releaseYear": 2024,
+   "imageAsset": "robot_placeholder",
+   "priceUvpCent": 69900,
+   "priceStreetCent": 45000,
+   "priceDate": "2026-10-26",
+   "suction": {
+    "maxPa": 10000,
+    "mainBrush": "BRISTLE",
+    "sideBrushAntiTangle": false
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 10,
+    "mopExtension": true,
+    "carpetMopHandling": "LIFT"
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "STRUCTURED_LIGHT",
+    "petWasteAvoidance": false,
+    "multiFloorMaps": 4
+   },
+   "dimensions": {
+    "height_mm": 103,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 20,
+    "liftMechanism": false
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "waterConnectionKit": false,
+    "width_mm": 340,
+    "depth_mm": 420,
+    "height_mm": 560,
+    "dustBagLiters": 3.2
+   },
+   "battery": {
+    "runtimeMin": 180,
+    "maxAreaPerCharge_m2": 200
+   },
+   "carpet": {
+    "autoBoost": true,
+    "highPileSupport": "LIMITED",
+    "fringeHandling": "NO"
+   },
+   "pet": {
+    "hairTangleResistance": 3,
+    "petMode": false
+   },
+   "privacy": {
+    "cloudRequired": true,
+    "localApi": false,
+    "homeAssistant": "CLOUD"
+   },
+   "runningCostsPerYearCent": 7000,
+   "affiliateLinks": [
+    {
+     "merchant": "amazon.de",
+     "url": "https://www.amazon.de/dp/PLACEHOLDER?tag=PARTNER_ID",
+     "label": "Bei Amazon ansehen"
+    }
+   ],
+   "editorNote": "Valetudo-Kompatibilit\u00e4t unbekannt (null) \u2013 Testfall f\u00fcr unbekannte Werte.",
+   "status": "AVAILABLE",
+   "verified": false
+  },
+  {
+   "id": "dreame-x50-ultra-complete",
+   "brand": "Dreame",
+   "model": "X50 Ultra Complete",
+   "releaseYear": 2025,
+   "imageAsset": "robot_placeholder",
+   "priceUvpCent": 139900,
+   "priceStreetCent": 110000,
+   "priceDate": "2026-10-26",
+   "suction": {
+    "maxPa": 20000,
+    "mainBrush": "ANTI_TANGLE",
+    "sideBrushAntiTangle": true
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 10,
+    "mopExtension": true,
+    "carpetMopHandling": "DETACH"
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "AI_CAMERA",
+    "petWasteAvoidance": true,
+    "multiFloorMaps": 4
+   },
+   "dimensions": {
+    "height_mm": 89,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 60,
+    "liftMechanism": true
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "waterConnectionKit": true,
+    "width_mm": 340,
+    "depth_mm": 460,
+    "height_mm": 590,
+    "dustBagLiters": 3.2
+   },
+   "battery": {
+    "runtimeMin": 180,
+    "maxAreaPerCharge_m2": 300
+   },
+   "carpet": {
+    "autoBoost": true,
+    "highPileSupport": "YES",
+    "fringeHandling": "YES"
+   },
+   "pet": {
+    "hairTangleResistance": 5,
+    "petMode": true
+   },
+   "privacy": {
+    "cloudRequired": true,
+    "localApi": false,
+    "homeAssistant": "CLOUD",
+    "valetudoCompatible": false
+   },
+   "runningCostsPerYearCent": 9000,
+   "affiliateLinks": [
+    {
+     "merchant": "amazon.de",
+     "url": "https://www.amazon.de/dp/PLACEHOLDER?tag=PARTNER_ID",
+     "label": "Bei Amazon ansehen"
+    }
+   ],
+   "editorNote": "Sehr hohe Kletterf\u00e4higkeit, flach durch einfahrbares LiDAR.",
+   "status": "AVAILABLE",
+   "verified": false
+  },
+  {
+   "id": "ecovacs-deebot-x8-pro-omni",
+   "brand": "Ecovacs",
+   "model": "Deebot X8 Pro Omni",
+   "releaseYear": 2025,
+   "imageAsset": "robot_placeholder",
+   "priceUvpCent": 129900,
+   "priceStreetCent": 90000,
+   "priceDate": "2026-10-26",
+   "suction": {
+    "maxPa": 18000,
+    "mainBrush": "ANTI_TANGLE",
+    "sideBrushAntiTangle": true
+   },
+   "mopping": {
+    "type": "ROLLER",
+    "mopLift_mm": 15,
+    "mopExtension": true,
+    "carpetMopHandling": "LIFT"
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "AI_CAMERA",
+    "petWasteAvoidance": true,
+    "multiFloorMaps": 3
+   },
+   "dimensions": {
+    "height_mm": 100,
+    "diameter_mm": 360
+   },
+   "climbing": {
+    "maxThreshold_mm": 20,
+    "liftMechanism": false
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "waterConnectionKit": false,
+    "width_mm": 450,
+    "depth_mm": 450,
+    "height_mm": 500,
+    "dustBagLiters": 3.0
+   },
+   "battery": {
+    "runtimeMin": 200,
+    "maxAreaPerCharge_m2": 250
+   },
+   "carpet": {
+    "autoBoost": true,
+    "highPileSupport": "LIMITED",
+    "fringeHandling": "LIMITED"
+   },
+   "pet": {
+    "hairTangleResistance": 4,
+    "petMode": true
+   },
+   "privacy": {
+    "cloudRequired": true,
+    "localApi": false,
+    "homeAssistant": "CLOUD",
+    "valetudoCompatible": false
+   },
+   "runningCostsPerYearCent": 10000,
+   "affiliateLinks": [
+    {
+     "merchant": "amazon.de",
+     "url": "https://www.amazon.de/dp/PLACEHOLDER?tag=PARTNER_ID",
+     "label": "Bei Amazon ansehen"
+    }
+   ],
+   "editorNote": "Walzen-Wischsystem mit kontinuierlicher Reinigung \u2013 stark beim Wischen.",
+   "status": "AVAILABLE",
+   "verified": false
+  },
+  {
+   "id": "eufy-x10-pro-omni",
+   "brand": "Eufy",
+   "model": "X10 Pro Omni",
+   "releaseYear": 2023,
+   "imageAsset": "robot_placeholder",
+   "priceUvpCent": 79900,
+   "priceStreetCent": 50000,
+   "priceDate": "2026-10-26",
+   "suction": {
+    "maxPa": 8000,
+    "mainBrush": "ANTI_TANGLE",
+    "sideBrushAntiTangle": false
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 12,
+    "mopExtension": false,
+    "carpetMopHandling": "LIFT"
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "AI_CAMERA",
+    "petWasteAvoidance": true,
+    "multiFloorMaps": 3
+   },
+   "dimensions": {
+    "height_mm": 114,
+    "diameter_mm": 353
+   },
+   "climbing": {
+    "maxThreshold_mm": 20,
+    "liftMechanism": false
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "waterConnectionKit": false,
+    "width_mm": 400,
+    "depth_mm": 430,
+    "height_mm": 450,
+    "dustBagLiters": 3.0
+   },
+   "battery": {
+    "runtimeMin": 180,
+    "maxAreaPerCharge_m2": 200
+   },
+   "carpet": {
+    "autoBoost": true,
+    "highPileSupport": "LIMITED",
+    "fringeHandling": "NO"
+   },
+   "pet": {
+    "hairTangleResistance": 4,
+    "petMode": false
+   },
+   "privacy": {
+    "cloudRequired": true,
+    "localApi": false,
+    "homeAssistant": "CLOUD",
+    "valetudoCompatible": false
+   },
+   "runningCostsPerYearCent": 7000,
+   "affiliateLinks": [
+    {
+     "merchant": "amazon.de",
+     "url": "https://www.amazon.de/dp/PLACEHOLDER?tag=PARTNER_ID",
+     "label": "Bei Amazon ansehen"
+    }
+   ],
+   "editorNote": "Preis-Leistungs-Kandidat mit Vollstation; relativ hohe Bauform.",
+   "status": "AVAILABLE",
+   "verified": false
+  },
+  {
+   "id": "irobot-roomba-combo-j9-plus",
+   "brand": "iRobot",
+   "model": "Roomba Combo j9+",
+   "releaseYear": 2023,
+   "imageAsset": "robot_placeholder",
+   "priceUvpCent": 139900,
+   "priceStreetCent": 70000,
+   "priceDate": "2026-10-26",
+   "suction": {
+    "mainBrush": "DUAL_RUBBER",
+    "sideBrushAntiTangle": false
+   },
+   "mopping": {
+    "type": "PAD_STATIC",
+    "mopLift_mm": 999,
+    "mopExtension": false,
+    "carpetMopHandling": "LIFT"
+   },
+   "navigation": {
+    "type": "CAMERA",
+    "obstacleAvoidance": "AI_CAMERA",
+    "petWasteAvoidance": true,
+    "multiFloorMaps": 10
+   },
+   "dimensions": {
+    "height_mm": 87,
+    "diameter_mm": 340
+   },
+   "climbing": {
+    "maxThreshold_mm": 20,
+    "liftMechanism": false
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": false,
+    "mopDryHotAir": false,
+    "autoRefill": true,
+    "waterConnectionKit": false,
+    "width_mm": 340,
+    "depth_mm": 400,
+    "height_mm": 380,
+    "dustBagLiters": 2.5
+   },
+   "battery": {
+    "runtimeMin": 120,
+    "maxAreaPerCharge_m2": 150
+   },
+   "carpet": {
+    "autoBoost": true,
+    "highPileSupport": "LIMITED",
+    "fringeHandling": "LIMITED"
+   },
+   "pet": {
+    "hairTangleResistance": 5,
+    "petMode": false
+   },
+   "privacy": {
+    "cloudRequired": true,
+    "localApi": false,
+    "homeAssistant": "CLOUD",
+    "valetudoCompatible": false
+   },
+   "runningCostsPerYearCent": 9000,
+   "affiliateLinks": [
+    {
+     "merchant": "amazon.de",
+     "url": "https://www.amazon.de/dp/PLACEHOLDER?tag=PARTNER_ID",
+     "label": "Bei Amazon ansehen"
+    }
+   ],
+   "editorNote": "Wischpad wird vollst\u00e4ndig auf die Oberseite gehoben \u2013 Teppiche bleiben trocken. Gummib\u00fcrsten gut bei Tierhaaren. mopLift_mm=999 bedeutet 'vollst\u00e4ndig angehoben'.",
+   "status": "AVAILABLE",
+   "verified": false
+  },
+  {
+   "id": "roborock-q7-max-plus",
+   "brand": "Roborock",
+   "model": "Q7 Max+",
+   "releaseYear": 2022,
+   "imageAsset": "robot_placeholder",
+   "priceUvpCent": 49900,
+   "priceStreetCent": 28000,
+   "priceDate": "2026-10-26",
+   "suction": {
+    "maxPa": 4200,
+    "mainBrush": "RUBBER",
+    "sideBrushAntiTangle": false
+   },
+   "mopping": {
+    "type": "PAD_STATIC",
+    "mopLift_mm": 0,
+    "mopExtension": false,
+    "carpetMopHandling": "NONE"
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "NONE",
+    "petWasteAvoidance": false,
+    "multiFloorMaps": 4
+   },
+   "dimensions": {
+    "height_mm": 98,
+    "diameter_mm": 353
+   },
+   "climbing": {
+    "maxThreshold_mm": 20,
+    "liftMechanism": false
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": false,
+    "mopDryHotAir": false,
+    "autoRefill": false,
+    "waterConnectionKit": false,
+    "width_mm": 310,
+    "depth_mm": 390,
+    "height_mm": 430,
+    "dustBagLiters": 2.5
+   },
+   "battery": {
+    "runtimeMin": 180,
+    "maxAreaPerCharge_m2": 250
+   },
+   "carpet": {
+    "autoBoost": true,
+    "highPileSupport": "NO",
+    "fringeHandling": "NO"
+   },
+   "pet": {
+    "hairTangleResistance": 3,
+    "petMode": false
+   },
+   "privacy": {
+    "cloudRequired": true,
+    "localApi": false,
+    "homeAssistant": "CLOUD",
+    "valetudoCompatible": false
+   },
+   "runningCostsPerYearCent": 4000,
+   "affiliateLinks": [
+    {
+     "merchant": "amazon.de",
+     "url": "https://www.amazon.de/dp/PLACEHOLDER?tag=PARTNER_ID",
+     "label": "Bei Amazon ansehen"
+    }
+   ],
+   "editorNote": "Einstieg mit Absaugstation, keine Hinderniserkennung, Wischen nur einfach.",
+   "status": "AVAILABLE",
+   "verified": false
+  },
+  {
+   "id": "roborock-qrevo-curv",
+   "brand": "Roborock",
+   "model": "Qrevo Curv",
+   "releaseYear": 2024,
+   "imageAsset": "robot_placeholder",
+   "priceUvpCent": 119900,
+   "priceStreetCent": 80000,
+   "priceDate": "2026-10-26",
+   "suction": {
+    "maxPa": 18500,
+    "mainBrush": "ANTI_TANGLE",
+    "sideBrushAntiTangle": true
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 20,
+    "mopExtension": true,
+    "carpetMopHandling": "LIFT"
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "STRUCTURED_LIGHT",
+    "petWasteAvoidance": true,
+    "multiFloorMaps": 4
+   },
+   "dimensions": {
+    "height_mm": 100,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 40,
+    "liftMechanism": true
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "waterConnectionKit": false,
+    "width_mm": 400,
+    "depth_mm": 460,
+    "height_mm": 480,
+    "dustBagLiters": 2.7
+   },
+   "battery": {
+    "runtimeMin": 180,
+    "maxAreaPerCharge_m2": 250
+   },
+   "carpet": {
+    "autoBoost": true,
+    "highPileSupport": "LIMITED",
+    "fringeHandling": "LIMITED"
+   },
+   "pet": {
+    "hairTangleResistance": 4,
+    "petMode": true
+   },
+   "privacy": {
+    "cloudRequired": true,
+    "localApi": false,
+    "homeAssistant": "CLOUD",
+    "valetudoCompatible": false
+   },
+   "runningCostsPerYearCent": 8000,
+   "affiliateLinks": [
+    {
+     "merchant": "amazon.de",
+     "url": "https://www.amazon.de/dp/PLACEHOLDER?tag=PARTNER_ID",
+     "label": "Bei Amazon ansehen"
+    }
+   ],
+   "editorNote": "Gutes Gesamtpaket mit Hebe-Chassis.",
+   "status": "AVAILABLE",
+   "verified": false
+  },
+  {
+   "id": "roborock-saros-10r",
+   "brand": "Roborock",
+   "model": "Saros 10R",
+   "releaseYear": 2025,
+   "imageAsset": "robot_placeholder",
+   "priceUvpCent": 149900,
+   "priceStreetCent": 120000,
+   "priceDate": "2026-10-26",
+   "suction": {
+    "maxPa": 20000,
+    "mainBrush": "ANTI_TANGLE",
+    "sideBrushAntiTangle": true
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 20,
+    "mopExtension": true,
+    "carpetMopHandling": "DETACH"
+   },
+   "navigation": {
+    "type": "DTOF",
+    "obstacleAvoidance": "AI_CAMERA",
+    "petWasteAvoidance": true,
+    "multiFloorMaps": 4
+   },
+   "dimensions": {
+    "height_mm": 80,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 40,
+    "liftMechanism": true
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "waterConnectionKit": true,
+    "width_mm": 380,
+    "depth_mm": 470,
+    "height_mm": 470,
+    "dustBagLiters": 2.7
+   },
+   "battery": {
+    "runtimeMin": 180,
+    "maxAreaPerCharge_m2": 300
+   },
+   "carpet": {
+    "autoBoost": true,
+    "highPileSupport": "YES",
+    "fringeHandling": "LIMITED"
+   },
+   "pet": {
+    "hairTangleResistance": 5,
+    "petMode": true
+   },
+   "privacy": {
+    "cloudRequired": true,
+    "localApi": false,
+    "homeAssistant": "CLOUD",
+    "valetudoCompatible": false
+   },
+   "runningCostsPerYearCent": 9000,
+   "affiliateLinks": [
+    {
+     "merchant": "amazon.de",
+     "url": "https://www.amazon.de/dp/PLACEHOLDER?tag=PARTNER_ID",
+     "label": "Bei Amazon ansehen"
+    }
+   ],
+   "editorNote": "Besonders flach ohne LiDAR-Turm \u2013 ideal f\u00fcr niedrige M\u00f6bel.",
+   "status": "AVAILABLE",
+   "verified": false
+  },
+  {
+   "id": "xiaomi-robot-vacuum-s20",
+   "brand": "Xiaomi",
+   "model": "Robot Vacuum S20",
+   "releaseYear": 2024,
+   "imageAsset": "robot_placeholder",
+   "priceUvpCent": 24900,
+   "priceStreetCent": 18000,
+   "priceDate": "2026-10-26",
+   "suction": {
+    "maxPa": 5000,
+    "mainBrush": "BRISTLE",
+    "sideBrushAntiTangle": false
+   },
+   "mopping": {
+    "type": "PAD_STATIC",
+    "mopLift_mm": 0,
+    "mopExtension": false,
+    "carpetMopHandling": "NONE"
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "NONE",
+    "petWasteAvoidance": false,
+    "multiFloorMaps": 1
+   },
+   "dimensions": {
+    "height_mm": 95,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 20,
+    "liftMechanism": false
+   },
+   "station": {
+    "autoEmpty": false,
+    "mopWash": false,
+    "mopDryHotAir": false,
+    "autoRefill": false,
+    "waterConnectionKit": false,
+    "dustBagLiters": 0.0
+   },
+   "battery": {
+    "runtimeMin": 130,
+    "maxAreaPerCharge_m2": 150
+   },
+   "carpet": {
+    "autoBoost": true,
+    "highPileSupport": "NO",
+    "fringeHandling": "NO"
+   },
+   "pet": {
+    "hairTangleResistance": 2,
+    "petMode": false
+   },
+   "privacy": {
+    "cloudRequired": true,
+    "localApi": false,
+    "homeAssistant": "CLOUD",
+    "valetudoCompatible": false
+   },
+   "runningCostsPerYearCent": 3000,
+   "affiliateLinks": [
+    {
+     "merchant": "amazon.de",
+     "url": "https://www.amazon.de/dp/PLACEHOLDER?tag=PARTNER_ID",
+     "label": "Bei Amazon ansehen"
+    }
+   ],
+   "editorNote": "Budget-Modell ohne Station \u2013 Testfall f\u00fcr 'keine Station' und kleine Wohnungen.",
+   "status": "AVAILABLE",
+   "verified": false
+  },
+  {
+   "id": "xiaomi-robot-vacuum-x20-plus",
+   "brand": "Xiaomi",
+   "model": "Robot Vacuum X20+",
+   "releaseYear": 2024,
+   "imageAsset": "robot_placeholder",
+   "priceUvpCent": 59900,
+   "priceStreetCent": 40000,
+   "priceDate": "2026-10-26",
+   "suction": {
+    "maxPa": 6000,
+    "mainBrush": "BRISTLE",
+    "sideBrushAntiTangle": false
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 7,
+    "mopExtension": false,
+    "carpetMopHandling": "LIFT"
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "STRUCTURED_LIGHT",
+    "petWasteAvoidance": false,
+    "multiFloorMaps": 4
+   },
+   "dimensions": {
+    "height_mm": 103,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 20,
+    "liftMechanism": false
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "waterConnectionKit": false,
+    "width_mm": 340,
+    "depth_mm": 420,
+    "height_mm": 560,
+    "dustBagLiters": 3.2
+   },
+   "battery": {
+    "runtimeMin": 180,
+    "maxAreaPerCharge_m2": 200
+   },
+   "carpet": {
+    "autoBoost": true,
+    "highPileSupport": "NO",
+    "fringeHandling": "NO"
+   },
+   "pet": {
+    "hairTangleResistance": 2,
+    "petMode": false
+   },
+   "privacy": {
+    "cloudRequired": true,
+    "localApi": false,
+    "homeAssistant": "CLOUD",
+    "valetudoCompatible": false
+   },
+   "runningCostsPerYearCent": 6000,
+   "affiliateLinks": [
+    {
+     "merchant": "amazon.de",
+     "url": "https://www.amazon.de/dp/PLACEHOLDER?tag=PARTNER_ID",
+     "label": "Bei Amazon ansehen"
+    }
+   ],
+   "editorNote": "G\u00fcnstige Vollstation, schw\u00e4cher bei Teppich und Tierhaaren.",
+   "status": "AVAILABLE",
+   "verified": false
+  }
+ ]
+}
