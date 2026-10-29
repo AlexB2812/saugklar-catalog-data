@@ -1,8 +1,425 @@
 {
  "schemaVersion": 1,
- "catalogVersion": "2026-10-28T1951",
+ "catalogVersion": "2026-10-29T2101",
  "currency": "EUR",
  "robots": [
+  {
+   "id": "dreame-aqua10-roller",
+   "brand": "Dreame",
+   "model": "Aqua10 Roller",
+   "status": "AVAILABLE",
+   "priceStreetCent": 89900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 30000
+   },
+   "mopping": {
+    "type": "ROLLER"
+   },
+   "dimensions": {
+    "height_mm": 120,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 42,
+    "liftMechanism": true,
+    "doubleThreshold_mm": 60
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopWashTemp_c": 100,
+    "width_mm": 420,
+    "depth_mm": 440,
+    "height_mm": 505
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "navigation": {
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dreame-aqua10-ultra-roller-complete",
+   "brand": "Dreame",
+   "model": "Aqua10 Ultra Roller Complete",
+   "status": "AVAILABLE",
+   "priceStreetCent": 109900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 30000
+   },
+   "mopping": {
+    "type": "ROLLER"
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 98,
+    "heightMax_mm": 120,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 42,
+    "liftMechanism": true,
+    "doubleThreshold_mm": 80
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopWashTemp_c": 100,
+    "width_mm": 420,
+    "depth_mm": 440,
+    "height_mm": 505
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "maintenance": {
+    "warrantyMonths": 36
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dreame-aqua10-ultra-track-complete",
+   "brand": "Dreame",
+   "model": "Aqua10 Ultra Track Complete",
+   "status": "AVAILABLE",
+   "priceStreetCent": 109900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 25000
+   },
+   "mopping": {
+    "type": "ROLLER"
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 98,
+    "heightMax_mm": 119,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 42,
+    "liftMechanism": true,
+    "doubleThreshold_mm": 60
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "width_mm": 420,
+    "depth_mm": 440,
+    "height_mm": 500
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dreame-aqua20-pro-ultra-roller-x-complete",
+   "brand": "Dreame",
+   "model": "Aqua20 Pro Ultra Roller X Complete",
+   "status": "AVAILABLE",
+   "priceStreetCent": 149900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 40000
+   },
+   "mopping": {
+    "type": "ROLLER"
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 98,
+    "heightMax_mm": 120,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 50,
+    "liftMechanism": true,
+    "doubleThreshold_mm": 100
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopWashTemp_c": 100,
+    "width_mm": 420,
+    "depth_mm": 441,
+    "height_mm": 502
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dreame-d10-plus-gen2",
+   "brand": "Dreame",
+   "model": "D10 Plus Gen 2",
+   "status": "AVAILABLE",
+   "priceStreetCent": 24900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 6000,
+    "dustBin_ml": 400
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "station": {
+    "autoEmpty": true,
+    "width_mm": 298,
+    "depth_mm": 406,
+    "height_mm": 427
+   },
+   "battery": {
+    "capacity_mAh": 5200,
+    "runtimeMin": 285
+   },
+   "mopping": {
+    "type": "PAD_STATIC"
+   },
+   "navigation": {
+    "obstacleAvoidance": "BASIC"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dreame-d20",
+   "brand": "Dreame",
+   "model": "D20",
+   "status": "AVAILABLE",
+   "priceUvpCent": 19900,
+   "priceStreetCent": 15900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 13000,
+    "dustBin_ml": 700
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "battery": {
+    "capacity_mAh": 5200,
+    "runtimeMin": 285
+   },
+   "mopping": {
+    "type": "PAD_STATIC"
+   },
+   "station": {
+    "autoEmpty": false,
+    "mopWash": false,
+    "autoRefill": false
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dreame-d20-air-plus",
+   "brand": "Dreame",
+   "model": "D20 Air Plus",
+   "status": "AVAILABLE",
+   "priceStreetCent": 19900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 20000,
+    "dustBin_ml": 220
+   },
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 95,
+    "diameter_mm": 325
+   },
+   "station": {
+    "autoEmpty": true,
+    "width_mm": 293,
+    "depth_mm": 201,
+    "height_mm": 267
+   },
+   "battery": {
+    "capacity_mAh": 3200,
+    "runtimeMin": 150
+   },
+   "mopping": {
+    "type": "PAD_STATIC"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dreame-d20-pro-plus",
+   "brand": "Dreame",
+   "model": "D20 Pro Plus",
+   "status": "AVAILABLE",
+   "priceStreetCent": 24900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 13000,
+    "dustBin_ml": 500
+   },
+   "navigation": {
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "station": {
+    "autoEmpty": true,
+    "width_mm": 298,
+    "depth_mm": 440,
+    "height_mm": 452
+   },
+   "battery": {
+    "capacity_mAh": 5200,
+    "runtimeMin": 285
+   },
+   "mopping": {
+    "type": "PAD_STATIC"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dreame-d30-ultra",
+   "brand": "Dreame",
+   "model": "D30 Ultra",
+   "status": "AVAILABLE",
+   "priceStreetCent": 39900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 25000,
+    "dustBin_ml": 300
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 350
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 340,
+    "depth_mm": 457,
+    "height_mm": 590
+   },
+   "battery": {
+    "capacity_mAh": 5200,
+    "runtimeMin": 230
+   },
+   "privacy": {
+    "matter": true
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 10,
+    "mopExtension": true
+   },
+   "navigation": {
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dreame-l10s-pro-gen2",
+   "brand": "Dreame",
+   "model": "L10s Pro Gen 2",
+   "status": "AVAILABLE",
+   "priceStreetCent": 29900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 7000,
+    "dustBin_ml": 470
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 350
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 7
+   },
+   "navigation": {
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "station": {
+    "autoEmpty": false,
+    "mopWash": false,
+    "autoRefill": false
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dreame-l10s-pro-gen3",
+   "brand": "Dreame",
+   "model": "L10s Pro Gen 3",
+   "status": "AVAILABLE",
+   "priceUvpCent": 29900,
+   "priceStreetCent": 18900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 13000,
+    "dustBin_ml": 470
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 350
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 7
+   },
+   "station": {
+    "autoEmpty": false,
+    "mopWash": false,
+    "autoRefill": false
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
   {
    "id": "dreame-l10s-ultra-gen2",
    "brand": "Dreame",
@@ -77,6 +494,401 @@
    "editorNote": "Valetudo-Kompatibilit\u00e4t unbekannt (null) \u2013 Testfall f\u00fcr unbekannte Werte.",
    "status": "AVAILABLE",
    "verified": false
+  },
+  {
+   "id": "dreame-l10s-ultra-gen3",
+   "brand": "Dreame",
+   "model": "L10s Ultra Gen 3",
+   "status": "AVAILABLE",
+   "priceUvpCent": 49900,
+   "priceStreetCent": 34900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 25000,
+    "dustBin_ml": 250
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 350
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "width_mm": 340,
+    "depth_mm": 457,
+    "height_mm": 590
+   },
+   "battery": {
+    "capacity_mAh": 5200,
+    "runtimeMin": 231
+   },
+   "privacy": {
+    "matter": true
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 10,
+    "mopExtension": true
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dreame-l40-ultra-a",
+   "brand": "Dreame",
+   "model": "L40 Ultra A",
+   "status": "AVAILABLE",
+   "priceStreetCent": 49900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 24000,
+    "dustBin_ml": 300
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 350
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "width_mm": 340,
+    "depth_mm": 457,
+    "height_mm": 590
+   },
+   "battery": {
+    "capacity_mAh": 5200,
+    "runtimeMin": 230
+   },
+   "privacy": {
+    "matter": true
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 10,
+    "mopExtension": true
+   },
+   "navigation": {
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dreame-l50-pro-ultra",
+   "brand": "Dreame",
+   "model": "L50 Pro Ultra",
+   "status": "AVAILABLE",
+   "priceUvpCent": 109900,
+   "priceStreetCent": 59900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 19500
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 90,
+    "heightMax_mm": 112,
+    "diameter_mm": 352
+   },
+   "climbing": {
+    "maxThreshold_mm": 22,
+    "doubleThreshold_mm": 40
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopWashTemp_c": 75,
+    "width_mm": 340,
+    "depth_mm": 457,
+    "height_mm": 590
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "privacy": {
+    "matter": true
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dreame-l50-ultra-ae",
+   "brand": "Dreame",
+   "model": "L50 Ultra AE",
+   "status": "AVAILABLE",
+   "priceUvpCent": 59900,
+   "priceStreetCent": 49900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 28000,
+    "dustBin_ml": 250
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 350
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopWashTemp_c": 100,
+    "width_mm": 340,
+    "depth_mm": 457,
+    "height_mm": 590
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "privacy": {
+    "matter": true
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 10,
+    "mopExtension": true
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dreame-l50s-pro-ultra",
+   "brand": "Dreame",
+   "model": "L50s Pro Ultra",
+   "status": "AVAILABLE",
+   "priceStreetCent": 74900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 30000
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 104,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 22,
+    "doubleThreshold_mm": 40
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopWashTemp_c": 100,
+    "width_mm": 340,
+    "depth_mm": 457,
+    "height_mm": 590
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "privacy": {
+    "matter": true
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dreame-l60-ultra",
+   "brand": "Dreame",
+   "model": "L60 Ultra",
+   "status": "AVAILABLE",
+   "priceStreetCent": 89900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 35000
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopExtension": true
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 89,
+    "heightMax_mm": 111,
+    "diameter_mm": 351
+   },
+   "climbing": {
+    "maxThreshold_mm": 22,
+    "doubleThreshold_mm": 40
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopWashTemp_c": 100,
+    "width_mm": 340,
+    "depth_mm": 457,
+    "height_mm": 589
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "privacy": {
+    "matter": true
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dreame-matrix10-pro",
+   "brand": "Dreame",
+   "model": "Matrix10 Pro",
+   "status": "AVAILABLE",
+   "priceUvpCent": 99900,
+   "priceStreetCent": 74900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 30000
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "navigation": {
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 104,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 22,
+    "doubleThreshold_mm": 40
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopWashTemp_c": 100,
+    "width_mm": 416,
+    "depth_mm": 457,
+    "height_mm": 590
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dreame-matrix10-ultra",
+   "brand": "Dreame",
+   "model": "Matrix10 Ultra",
+   "status": "AVAILABLE",
+   "priceUvpCent": 119900,
+   "priceStreetCent": 68900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 30000
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 89,
+    "heightMax_mm": 111,
+    "diameter_mm": 351
+   },
+   "climbing": {
+    "maxThreshold_mm": 42,
+    "liftMechanism": true,
+    "doubleThreshold_mm": 80
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopWashTemp_c": 100,
+    "width_mm": 416,
+    "depth_mm": 457,
+    "height_mm": 590
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "privacy": {
+    "matter": true
+   },
+   "maintenance": {
+    "warrantyMonths": 36
+   },
+   "editorNote": "Station wechselt automatisch zwischen drei Wischmopp-S\u00e4tzen und Reinigungsl\u00f6sungen.",
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dreame-x50-master",
+   "brand": "Dreame",
+   "model": "X50 Master",
+   "status": "AVAILABLE",
+   "priceStreetCent": 109900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 20000
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 22
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 89,
+    "heightMax_mm": 111,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 42,
+    "liftMechanism": true,
+    "doubleThreshold_mm": 60
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "autoRefill": true,
+    "waterConnectionKit": true,
+    "mopWashTemp_c": 80,
+    "width_mm": 418,
+    "depth_mm": 416,
+    "height_mm": 249
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "privacy": {
+    "matter": true
+   },
+   "maintenance": {
+    "warrantyMonths": 36
+   },
+   "editorNote": "Station f\u00fcr den Einbau unter der K\u00fcchenzeile mit festem Wasseranschluss.",
+   "verified": false,
+   "affiliateLinks": []
   },
   {
    "id": "dreame-x50-ultra-complete",
@@ -155,6 +967,842 @@
    "verified": false
   },
   {
+   "id": "dreame-x50s-ultra",
+   "brand": "Dreame",
+   "model": "X50s Ultra",
+   "status": "AVAILABLE",
+   "priceStreetCent": 129900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 35000
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 80,
+    "heightMax_mm": 103,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 45,
+    "liftMechanism": true,
+    "doubleThreshold_mm": 88
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopWashTemp_c": 100,
+    "width_mm": 390,
+    "depth_mm": 423,
+    "height_mm": 499
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dreame-x60-pro-master",
+   "brand": "Dreame",
+   "model": "X60 Pro Master",
+   "status": "AVAILABLE",
+   "priceUvpCent": 159900,
+   "priceStreetCent": 139900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 42000
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 22
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 89,
+    "heightMax_mm": 111,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 52,
+    "liftMechanism": true,
+    "doubleThreshold_mm": 100
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "autoRefill": true,
+    "waterConnectionKit": true,
+    "mopWashTemp_c": 100,
+    "width_mm": 416,
+    "depth_mm": 443,
+    "height_mm": 249
+   },
+   "battery": {
+    "capacity_mAh": 5000
+   },
+   "privacy": {
+    "matter": true
+   },
+   "editorNote": "Station f\u00fcr den Einbau unter der K\u00fcchenzeile mit festem Wasseranschluss.",
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dreame-x60-pro-ultra-complete",
+   "brand": "Dreame",
+   "model": "X60 Pro Ultra Complete",
+   "status": "AVAILABLE",
+   "priceUvpCent": 149900,
+   "priceStreetCent": 94900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 42000
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 22
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 89,
+    "heightMax_mm": 111,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 52,
+    "liftMechanism": true,
+    "doubleThreshold_mm": 100
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopWashTemp_c": 100,
+    "width_mm": 390,
+    "depth_mm": 456,
+    "height_mm": 499
+   },
+   "battery": {
+    "capacity_mAh": 5000
+   },
+   "privacy": {
+    "matter": true
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dreame-x60-pro-ultra-matrix",
+   "brand": "Dreame",
+   "model": "X60 Pro Ultra Matrix",
+   "status": "AVAILABLE",
+   "priceStreetCent": 169900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 42000
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 89,
+    "heightMax_mm": 111,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 52,
+    "liftMechanism": true,
+    "doubleThreshold_mm": 100
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopWashTemp_c": 100,
+    "width_mm": 416,
+    "depth_mm": 457,
+    "height_mm": 590
+   },
+   "battery": {
+    "capacity_mAh": 5000
+   },
+   "privacy": {
+    "matter": true
+   },
+   "editorNote": "Station wechselt automatisch zwischen verschiedenen Wischmopps.",
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dyson-360-vis-nav",
+   "brand": "Dyson",
+   "model": "360 Vis Nav",
+   "status": "AVAILABLE",
+   "priceUvpCent": 129900,
+   "priceStreetCent": 60200,
+   "priceDate": "2026-10-29",
+   "navigation": {
+    "type": "CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 99,
+    "diameter_mm": 330,
+    "weight_g": 5000
+   },
+   "mopping": {
+    "type": "NONE"
+   },
+   "battery": {
+    "runtimeMin": 65
+   },
+   "suction": {
+    "dustBin_ml": 500
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "dyson-spot-scrub-ai",
+   "brand": "Dyson",
+   "model": "Spot+Scrub Ai",
+   "status": "AVAILABLE",
+   "priceUvpCent": 119900,
+   "suction": {
+    "maxPa": 18000
+   },
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 110,
+    "diameter_mm": 373,
+    "weight_g": 6600
+   },
+   "station": {
+    "autoEmpty": true,
+    "width_mm": 450,
+    "depth_mm": 510,
+    "height_mm": 440
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "ecovacs-deebot-mini-2",
+   "brand": "Ecovacs",
+   "model": "Deebot mini 2",
+   "status": "AVAILABLE",
+   "priceStreetCent": 39900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "dustBin_ml": 99
+   },
+   "mopping": {
+    "mopLift_mm": 6,
+    "type": "ROTATING_PADS"
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 100,
+    "diameter_mm": 286
+   },
+   "climbing": {
+    "maxThreshold_mm": 18
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "cleanWaterLiters": 2.6,
+    "dirtyWaterLiters": 1.7,
+    "width_mm": 400,
+    "depth_mm": 320,
+    "height_mm": 385
+   },
+   "battery": {
+    "capacity_mAh": 3200,
+    "runtimeMin": 110
+   },
+   "noise": {
+    "dbStandard": 62
+   },
+   "editorNote": "Kompakter Roboter (28,6 cm) mit kleiner All-in-One-Station f\u00fcr enge Wohnungen.",
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "ecovacs-deebot-t30e-omni",
+   "brand": "Ecovacs",
+   "model": "Deebot T30e Omni",
+   "status": "AVAILABLE",
+   "priceStreetCent": 24900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 25000,
+    "dustBin_ml": 260
+   },
+   "mopping": {
+    "mopLift_mm": 9,
+    "type": "ROTATING_PADS"
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 101,
+    "diameter_mm": 353
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "cleanWaterLiters": 4,
+    "dirtyWaterLiters": 4
+   },
+   "noise": {
+    "dbStandard": 65
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "ecovacs-deebot-t50-omni-gen3",
+   "brand": "Ecovacs",
+   "model": "Deebot T50 Omni Gen3",
+   "status": "AVAILABLE",
+   "priceStreetCent": 39900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 25000,
+    "dustBin_ml": 260
+   },
+   "mopping": {
+    "waterTank_ml": 70,
+    "mopLift_mm": 9,
+    "type": "ROTATING_PADS"
+   },
+   "navigation": {
+    "type": "DTOF",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 81,
+    "diameter_mm": 353
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "cleanWaterLiters": 4,
+    "dirtyWaterLiters": 4
+   },
+   "noise": {
+    "dbStandard": 63
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "ecovacs-deebot-t50-pro-omni-gen3",
+   "brand": "Ecovacs",
+   "model": "Deebot T50 Pro Omni Gen3",
+   "status": "AVAILABLE",
+   "priceStreetCent": 34900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 25000
+   },
+   "mopping": {
+    "waterTank_ml": 70,
+    "mopLift_mm": 9,
+    "type": "ROTATING_PADS"
+   },
+   "navigation": {
+    "type": "DTOF",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 81,
+    "diameter_mm": 353
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "cleanWaterLiters": 4,
+    "dirtyWaterLiters": 4
+   },
+   "noise": {
+    "dbStandard": 63
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "ecovacs-deebot-t80s-omni",
+   "brand": "Ecovacs",
+   "model": "Deebot T80S Omni",
+   "status": "AVAILABLE",
+   "priceStreetCent": 54900,
+   "priceDate": "2026-10-29",
+   "mopping": {
+    "type": "ROLLER",
+    "waterTank_ml": 110
+   },
+   "navigation": {
+    "type": "DTOF",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 98,
+    "diameter_mm": 353
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "cleanWaterLiters": 4,
+    "dirtyWaterLiters": 2.2,
+    "width_mm": 338,
+    "depth_mm": 459,
+    "height_mm": 500
+   },
+   "noise": {
+    "dbStandard": 63
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "ecovacs-deebot-t90-max-omni",
+   "brand": "Ecovacs",
+   "model": "Deebot T90 Max Omni",
+   "status": "AVAILABLE",
+   "priceStreetCent": 49900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 40000,
+    "dustBin_ml": 250
+   },
+   "mopping": {
+    "type": "ROLLER",
+    "mopLift_mm": 15,
+    "waterTank_ml": 110
+   },
+   "navigation": {
+    "type": "DTOF",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 95,
+    "diameter_mm": 353
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "cleanWaterLiters": 4,
+    "dirtyWaterLiters": 2.2
+   },
+   "battery": {
+    "capacity_mAh": 5200,
+    "runtimeMin": 257
+   },
+   "noise": {
+    "dbStandard": 58
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "ecovacs-deebot-t90-max-pro-omni",
+   "brand": "Ecovacs",
+   "model": "Deebot T90 Max Pro Omni",
+   "status": "AVAILABLE",
+   "priceStreetCent": 49900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 40000,
+    "dustBin_ml": 250
+   },
+   "mopping": {
+    "type": "ROLLER",
+    "mopLift_mm": 15,
+    "waterTank_ml": 110
+   },
+   "navigation": {
+    "type": "DTOF",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 95,
+    "diameter_mm": 353
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "mopWashTemp_c": 100,
+    "cleanWaterLiters": 4,
+    "dirtyWaterLiters": 2.2
+   },
+   "battery": {
+    "capacity_mAh": 5200,
+    "runtimeMin": 257
+   },
+   "noise": {
+    "dbStandard": 59
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "ecovacs-deebot-t90-omni",
+   "brand": "Ecovacs",
+   "model": "Deebot T90 Omni",
+   "status": "AVAILABLE",
+   "priceStreetCent": 54900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 30000,
+    "dustBin_ml": 250
+   },
+   "navigation": {
+    "type": "DTOF",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 95,
+    "diameter_mm": 353
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "cleanWaterLiters": 4,
+    "dirtyWaterLiters": 2.2,
+    "width_mm": 338,
+    "depth_mm": 460,
+    "height_mm": 500
+   },
+   "noise": {
+    "dbStandard": 60
+   },
+   "mopping": {
+    "type": "ROLLER"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "ecovacs-deebot-t90-pro-omni",
+   "brand": "Ecovacs",
+   "model": "Deebot T90 Pro Omni",
+   "status": "AVAILABLE",
+   "priceStreetCent": 59900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 30000
+   },
+   "mopping": {
+    "mopLift_mm": 15,
+    "type": "ROLLER"
+   },
+   "navigation": {
+    "type": "DTOF",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 95,
+    "diameter_mm": 353
+   },
+   "climbing": {
+    "maxThreshold_mm": 24
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "autoDetergent": true,
+    "cleanWaterLiters": 4,
+    "dirtyWaterLiters": 2.2,
+    "width_mm": 338,
+    "depth_mm": 459,
+    "height_mm": 500
+   },
+   "noise": {
+    "dbStandard": 60
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "ecovacs-deebot-t90s-pro-omni",
+   "brand": "Ecovacs",
+   "model": "Deebot T90S Pro Omni",
+   "status": "AVAILABLE",
+   "priceStreetCent": 59900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 40000,
+    "dustBin_ml": 250
+   },
+   "mopping": {
+    "type": "ROLLER",
+    "mopExtension": true,
+    "mopLift_mm": 15,
+    "waterTank_ml": 110
+   },
+   "navigation": {
+    "type": "DTOF",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 95,
+    "diameter_mm": 353
+   },
+   "climbing": {
+    "maxThreshold_mm": 25
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "cleanWaterLiters": 4,
+    "dirtyWaterLiters": 2.2
+   },
+   "battery": {
+    "capacity_mAh": 4000,
+    "runtimeMin": 350
+   },
+   "noise": {
+    "dbStandard": 60
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "ecovacs-deebot-x11s-omnicyclone",
+   "brand": "Ecovacs",
+   "model": "Deebot X11S OmniCyclone",
+   "status": "AVAILABLE",
+   "priceStreetCent": 99900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 30000,
+    "dustBin_ml": 250
+   },
+   "mopping": {
+    "waterTank_ml": 110,
+    "mopLift_mm": 15,
+    "type": "ROLLER"
+   },
+   "navigation": {
+    "type": "DTOF",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 95,
+    "diameter_mm": 353
+   },
+   "climbing": {
+    "maxThreshold_mm": 24,
+    "doubleThreshold_mm": 40,
+    "liftMechanism": true
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "autoDetergent": true,
+    "cleanWaterLiters": 3.5,
+    "dirtyWaterLiters": 2.7
+   },
+   "battery": {
+    "capacity_mAh": 4000
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "ecovacs-deebot-x12-omnicyclone",
+   "brand": "Ecovacs",
+   "model": "Deebot X12 OmniCyclone",
+   "status": "AVAILABLE",
+   "priceStreetCent": 84900,
+   "priceDate": "2026-10-29",
+   "mopping": {
+    "type": "ROLLER",
+    "mopLift_mm": 15
+   },
+   "navigation": {
+    "type": "DTOF"
+   },
+   "dimensions": {
+    "height_mm": 98,
+    "diameter_mm": 353
+   },
+   "climbing": {
+    "maxThreshold_mm": 24
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "cleanWaterLiters": 3.5,
+    "dirtyWaterLiters": 2.7,
+    "width_mm": 380,
+    "depth_mm": 493,
+    "height_mm": 465
+   },
+   "battery": {
+    "capacity_mAh": 4000
+   },
+   "noise": {
+    "dbStandard": 64
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "ecovacs-deebot-x12-pro-omni",
+   "brand": "Ecovacs",
+   "model": "Deebot X12 Pro Omni",
+   "status": "AVAILABLE",
+   "priceStreetCent": 69900,
+   "priceDate": "2026-10-29",
+   "mopping": {
+    "waterTank_ml": 110,
+    "mopLift_mm": 15,
+    "type": "ROLLER"
+   },
+   "navigation": {
+    "type": "DTOF",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 98,
+    "diameter_mm": 353
+   },
+   "climbing": {
+    "maxThreshold_mm": 24,
+    "doubleThreshold_mm": 40
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "cleanWaterLiters": 4,
+    "dirtyWaterLiters": 2.2,
+    "width_mm": 338,
+    "depth_mm": 459,
+    "height_mm": 500
+   },
+   "battery": {
+    "capacity_mAh": 4000
+   },
+   "noise": {
+    "dbStandard": 64
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "ecovacs-deebot-x12s-omnicyclone",
+   "brand": "Ecovacs",
+   "model": "Deebot X12S OmniCyclone",
+   "status": "AVAILABLE",
+   "priceStreetCent": 104900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "dustBin_ml": 250
+   },
+   "mopping": {
+    "type": "ROLLER",
+    "mopLift_mm": 15,
+    "waterTank_ml": 110
+   },
+   "navigation": {
+    "type": "DTOF",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 98,
+    "diameter_mm": 353
+   },
+   "climbing": {
+    "maxThreshold_mm": 25
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "cleanWaterLiters": 3.5,
+    "dirtyWaterLiters": 2.4
+   },
+   "battery": {
+    "capacity_mAh": 4000
+   },
+   "noise": {
+    "dbStandard": 60
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
    "id": "ecovacs-deebot-x8-pro-omni",
    "brand": "Ecovacs",
    "model": "Deebot X8 Pro Omni",
@@ -229,6 +1877,199 @@
    "editorNote": "Walzen-Wischsystem mit kontinuierlicher Reinigung \u2013 stark beim Wischen.",
    "status": "AVAILABLE",
    "verified": false
+  },
+  {
+   "id": "eufy-c10",
+   "brand": "Eufy",
+   "model": "C10",
+   "status": "AVAILABLE",
+   "priceStreetCent": 39900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 4000
+   },
+   "dimensions": {
+    "height_mm": 73
+   },
+   "station": {
+    "autoEmpty": true
+   },
+   "climbing": {
+    "maxThreshold_mm": 17
+   },
+   "navigation": {
+    "obstacleAvoidance": "NONE"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "eufy-c28",
+   "brand": "Eufy",
+   "model": "C28",
+   "status": "AVAILABLE",
+   "priceStreetCent": 59900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 15000
+   },
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 110,
+    "diameter_mm": 350
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "eufy-hydrojet-e35",
+   "brand": "Eufy",
+   "model": "HydroJet E35",
+   "status": "AVAILABLE",
+   "priceStreetCent": 99900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 35000
+   },
+   "mopping": {
+    "type": "ROLLER"
+   },
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 116,
+    "diameter_mm": 360
+   },
+   "station": {
+    "mopWash": true,
+    "mopDryHotAir": true
+   },
+   "editorNote": "Mit 11,6 cm vergleichsweise hoch \u2013 passt unter wenige M\u00f6bel.",
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "eufy-hydrojet-s2",
+   "brand": "Eufy",
+   "model": "HydroJet S2",
+   "status": "AVAILABLE",
+   "priceStreetCent": 149900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 30000
+   },
+   "mopping": {
+    "type": "ROLLER"
+   },
+   "dimensions": {
+    "height_mm": 98,
+    "diameter_mm": 350,
+    "weight_g": 5200
+   },
+   "climbing": {
+    "maxThreshold_mm": 42
+   },
+   "station": {
+    "mopWash": true,
+    "mopWashTemp_c": 60
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "eufy-omni-c20",
+   "brand": "Eufy",
+   "model": "Omni C20",
+   "status": "AVAILABLE",
+   "priceStreetCent": 59900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 7000
+   },
+   "dimensions": {
+    "height_mm": 85
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 200,
+    "depth_mm": 298,
+    "height_mm": 330
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "eufy-omni-e25",
+   "brand": "Eufy",
+   "model": "Omni E25",
+   "status": "AVAILABLE",
+   "priceStreetCent": 89900,
+   "priceDate": "2026-10-29",
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 111,
+    "diameter_mm": 346
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true
+   },
+   "climbing": {
+    "maxThreshold_mm": 21
+   },
+   "battery": {
+    "runtimeMin": 132
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "eufy-omni-e28",
+   "brand": "Eufy",
+   "model": "Omni E28",
+   "status": "AVAILABLE",
+   "priceStreetCent": 99900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 20000
+   },
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 111,
+    "diameter_mm": 346,
+    "weight_g": 5200
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 484,
+    "depth_mm": 373,
+    "height_mm": 464
+   },
+   "editorNote": "Station enth\u00e4lt einen abnehmbaren Polster-Nasssauger.",
+   "climbing": {
+    "maxThreshold_mm": 21
+   },
+   "verified": false,
+   "affiliateLinks": []
   },
   {
    "id": "eufy-x10-pro-omni",
@@ -380,6 +2221,1607 @@
    "editorNote": "Wischpad wird vollst\u00e4ndig auf die Oberseite gehoben \u2013 Teppiche bleiben trocken. Gummib\u00fcrsten gut bei Tierhaaren. mopLift_mm=999 bedeutet 'vollst\u00e4ndig angehoben'.",
    "status": "AVAILABLE",
    "verified": false
+  },
+  {
+   "id": "irobot-roomba-max-775-combo",
+   "brand": "iRobot",
+   "model": "Roomba Max 775 Combo",
+   "status": "AVAILABLE",
+   "priceStreetCent": 63900,
+   "priceDate": "2026-10-29",
+   "mopping": {
+    "type": "ROLLER"
+   },
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 104,
+    "diameter_mm": 366
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "irobot-roomba-max-875-combo",
+   "brand": "iRobot",
+   "model": "Roomba Max 875 Combo",
+   "status": "AVAILABLE",
+   "priceUvpCent": 119900,
+   "priceStreetCent": 84900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 35000
+   },
+   "mopping": {
+    "type": "ROLLER",
+    "mopLift_mm": 15
+   },
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 100,
+    "diameter_mm": 360,
+    "weight_g": 5500
+   },
+   "climbing": {
+    "maxThreshold_mm": 35
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "cleanWaterLiters": 4,
+    "width_mm": 350,
+    "depth_mm": 499,
+    "height_mm": 475
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "irobot-roomba-plus-575-combo",
+   "brand": "iRobot",
+   "model": "Roomba Plus 575 Combo",
+   "status": "AVAILABLE",
+   "priceStreetCent": 39900,
+   "priceDate": "2026-10-29",
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 107,
+    "diameter_mm": 351
+   },
+   "climbing": {
+    "maxThreshold_mm": 35
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "irobot-roomba-plus-615-combo",
+   "brand": "iRobot",
+   "model": "Roomba Plus 615 Combo",
+   "status": "AVAILABLE",
+   "priceStreetCent": 44900,
+   "priceDate": "2026-10-29",
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 100
+   },
+   "climbing": {
+    "maxThreshold_mm": 35
+   },
+   "station": {
+    "mopWash": true,
+    "autoEmpty": false
+   },
+   "editorNote": "Station w\u00e4scht nur den Mopp (Wash Only Dock), keine Absaugung.",
+   "suction": {
+    "maxPa": 30000
+   },
+   "mopping": {
+    "type": "ROLLER"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "irobot-roomba-plus-675-combo",
+   "brand": "iRobot",
+   "model": "Roomba Plus 675 Combo",
+   "status": "AVAILABLE",
+   "priceStreetCent": 57900,
+   "priceDate": "2026-10-29",
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 100
+   },
+   "climbing": {
+    "maxThreshold_mm": 35
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "clearanceSide_mm": 200,
+    "clearanceFront_mm": 1000
+   },
+   "suction": {
+    "maxPa": 30000
+   },
+   "mopping": {
+    "type": "ROLLER",
+    "mopLift_mm": 10
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "lefant-m2-pro",
+   "brand": "Lefant",
+   "model": "M2 Pro",
+   "status": "AVAILABLE",
+   "priceUvpCent": 36000,
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 95,
+    "diameter_mm": 320
+   },
+   "mopping": {
+    "type": "PAD_STATIC"
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": false
+   },
+   "battery": {
+    "runtimeMin": 138
+   },
+   "suction": {
+    "dustBin_ml": 150
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "medion-e35",
+   "brand": "Medion",
+   "model": "E35",
+   "status": "AVAILABLE",
+   "priceStreetCent": 11000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 2000
+   },
+   "navigation": {
+    "type": "GYRO",
+    "obstacleAvoidance": "BASIC"
+   },
+   "dimensions": {
+    "height_mm": 70
+   },
+   "mopping": {
+    "type": "NONE"
+   },
+   "station": {
+    "autoEmpty": false,
+    "mopWash": false,
+    "autoRefill": false
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "medion-e35-sw",
+   "brand": "Medion",
+   "model": "E35 SW",
+   "status": "AVAILABLE",
+   "priceStreetCent": 12000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 2000
+   },
+   "mopping": {
+    "type": "PAD_STATIC"
+   },
+   "navigation": {
+    "type": "GYRO",
+    "obstacleAvoidance": "BASIC"
+   },
+   "dimensions": {
+    "height_mm": 70
+   },
+   "station": {
+    "autoEmpty": false,
+    "mopWash": false,
+    "autoRefill": false
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "medion-s35",
+   "brand": "Medion",
+   "model": "S35",
+   "status": "AVAILABLE",
+   "priceStreetCent": 12000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 4000
+   },
+   "navigation": {
+    "type": "GYRO",
+    "obstacleAvoidance": "BASIC"
+   },
+   "dimensions": {
+    "height_mm": 74
+   },
+   "mopping": {
+    "type": "NONE"
+   },
+   "station": {
+    "autoEmpty": false,
+    "mopWash": false,
+    "autoRefill": false
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "medion-x10-sw",
+   "brand": "Medion",
+   "model": "X10 SW",
+   "status": "AVAILABLE",
+   "priceStreetCent": 10000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 2700
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "BASIC"
+   },
+   "dimensions": {
+    "height_mm": 95
+   },
+   "mopping": {
+    "type": "PAD_STATIC"
+   },
+   "station": {
+    "autoEmpty": false,
+    "mopWash": false,
+    "autoRefill": false
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "medion-x20-sw-plus",
+   "brand": "Medion",
+   "model": "X20 SW+",
+   "status": "AVAILABLE",
+   "priceStreetCent": 16000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 3000
+   },
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 93
+   },
+   "climbing": {
+    "maxThreshold_mm": 18
+   },
+   "station": {
+    "autoEmpty": true
+   },
+   "mopping": {
+    "type": "PAD_STATIC"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "medion-x22-sw-plus",
+   "brand": "Medion",
+   "model": "X22 SW+",
+   "status": "AVAILABLE",
+   "priceStreetCent": 18000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 5000
+   },
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 93,
+    "diameter_mm": 320,
+    "weight_g": 2500
+   },
+   "station": {
+    "autoEmpty": true,
+    "width_mm": 300,
+    "depth_mm": 100,
+    "height_mm": 270
+   },
+   "mopping": {
+    "type": "PAD_STATIC"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "medion-x23-sw-plus",
+   "brand": "Medion",
+   "model": "X23 SW+",
+   "status": "AVAILABLE",
+   "priceStreetCent": 20000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 5000
+   },
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 93
+   },
+   "station": {
+    "autoEmpty": true
+   },
+   "mopping": {
+    "type": "PAD_STATIC"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "medion-x40-sw",
+   "brand": "Medion",
+   "model": "X40 SW",
+   "status": "AVAILABLE",
+   "priceStreetCent": 19000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 8000
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "BASIC"
+   },
+   "dimensions": {
+    "height_mm": 102
+   },
+   "mopping": {
+    "type": "PAD_STATIC"
+   },
+   "station": {
+    "autoEmpty": false,
+    "mopWash": false,
+    "autoRefill": false
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "medion-x41-sw",
+   "brand": "Medion",
+   "model": "X41 SW",
+   "status": "AVAILABLE",
+   "priceStreetCent": 10000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 8000
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "BASIC"
+   },
+   "dimensions": {
+    "height_mm": 98
+   },
+   "mopping": {
+    "type": "PAD_STATIC"
+   },
+   "station": {
+    "autoEmpty": false,
+    "mopWash": false,
+    "autoRefill": false
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "medion-x41-sw-plus",
+   "brand": "Medion",
+   "model": "X41 SW+",
+   "status": "AVAILABLE",
+   "priceStreetCent": 25000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 8000
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "BASIC"
+   },
+   "dimensions": {
+    "height_mm": 98
+   },
+   "station": {
+    "autoEmpty": true
+   },
+   "mopping": {
+    "type": "PAD_STATIC"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "medion-x50-sw",
+   "brand": "Medion",
+   "model": "X50 SW",
+   "status": "AVAILABLE",
+   "priceStreetCent": 25000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 8000,
+    "dustBin_ml": 450
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 85
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "station": {
+    "autoEmpty": true
+   },
+   "mopping": {
+    "type": "PAD_STATIC"
+   },
+   "battery": {
+    "runtimeMin": 198
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "medion-x51-sw-plus",
+   "brand": "Medion",
+   "model": "X51 SW+",
+   "status": "AVAILABLE",
+   "priceStreetCent": 22000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 10000
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 98
+   },
+   "station": {
+    "autoEmpty": true
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "medion-x55-sw-plus",
+   "brand": "Medion",
+   "model": "X55 SW+",
+   "status": "AVAILABLE",
+   "priceStreetCent": 40000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 10000
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopExtension": true
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 100,
+    "diameter_mm": 350,
+    "weight_g": 3900
+   },
+   "station": {
+    "autoEmpty": true,
+    "width_mm": 395,
+    "depth_mm": 283,
+    "height_mm": 445
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "medion-x55-sw-plus-pro",
+   "brand": "Medion",
+   "model": "X55 SW+ Pro",
+   "status": "AVAILABLE",
+   "priceStreetCent": 45000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 10000
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopExtension": true
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 100,
+    "diameter_mm": 350,
+    "weight_g": 3900
+   },
+   "station": {
+    "autoEmpty": true,
+    "width_mm": 395,
+    "depth_mm": 283,
+    "height_mm": 445
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "mova-e30-ultra",
+   "brand": "Mova",
+   "model": "E30 Ultra",
+   "status": "AVAILABLE",
+   "priceStreetCent": 34900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 7000
+   },
+   "dimensions": {
+    "height_mm": 98,
+    "diameter_mm": 349
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "width_mm": 340,
+    "depth_mm": 456,
+    "height_mm": 590
+   },
+   "battery": {
+    "capacity_mAh": 5200,
+    "runtimeMin": 260
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "navigation": {
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "mova-e40-ultra",
+   "brand": "Mova",
+   "model": "E40 Ultra",
+   "status": "AVAILABLE",
+   "priceStreetCent": 44900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 19000,
+    "dustBin_ml": 300
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 350
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 340,
+    "depth_mm": 457,
+    "height_mm": 590
+   },
+   "battery": {
+    "capacity_mAh": 5200,
+    "runtimeMin": 260
+   },
+   "climbing": {
+    "maxThreshold_mm": 22
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 10,
+    "mopExtension": true
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "mova-e50-pro-ultra",
+   "brand": "Mova",
+   "model": "E50 Pro Ultra",
+   "status": "AVAILABLE",
+   "priceStreetCent": 49900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 30000,
+    "dustBin_ml": 300
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 350
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 340,
+    "depth_mm": 480,
+    "height_mm": 497,
+    "mopWashTemp_c": 100
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 10
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "mova-e50-ultra",
+   "brand": "Mova",
+   "model": "E50 Ultra",
+   "status": "AVAILABLE",
+   "priceUvpCent": 39900,
+   "priceStreetCent": 31900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 30000,
+    "dustBin_ml": 300
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 350
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 340,
+    "depth_mm": 480,
+    "height_mm": 497
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 10
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "mova-mobius-60",
+   "brand": "Mova",
+   "model": "Mobius 60",
+   "status": "AVAILABLE",
+   "priceStreetCent": 119900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 30000,
+    "dustBin_ml": 300
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 90,
+    "heightMax_mm": 112,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "doubleThreshold_mm": 80,
+    "liftMechanism": true,
+    "maxThreshold_mm": 50
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 416,
+    "depth_mm": 467,
+    "height_mm": 589,
+    "mopWashTemp_c": 100
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 10,
+    "mopExtension": true
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "mova-p50-pro-ultra",
+   "brand": "Mova",
+   "model": "P50 Pro Ultra",
+   "status": "AVAILABLE",
+   "priceStreetCent": 64900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 19000
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "navigation": {
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 104,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 22
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "width_mm": 420,
+    "depth_mm": 458,
+    "height_mm": 470
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "mova-p50-ultra",
+   "brand": "Mova",
+   "model": "P50 Ultra",
+   "status": "AVAILABLE",
+   "priceStreetCent": 49900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 19000,
+    "dustBin_ml": 300
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "dimensions": {
+    "height_mm": 98,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "width_mm": 420,
+    "depth_mm": 458,
+    "height_mm": 470
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "navigation": {
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "mova-p70-pro-ultra",
+   "brand": "Mova",
+   "model": "P70 Pro Ultra",
+   "status": "AVAILABLE",
+   "priceUvpCent": 69900,
+   "priceStreetCent": 49900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 30000
+   },
+   "dimensions": {
+    "height_mm": 104,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 22
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 420,
+    "depth_mm": 458,
+    "height_mm": 470,
+    "mopWashTemp_c": 100
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 10,
+    "mopExtension": true
+   },
+   "navigation": {
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "mova-s10-plus",
+   "brand": "Mova",
+   "model": "S10 Plus",
+   "status": "AVAILABLE",
+   "priceStreetCent": 49900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 7000,
+    "dustBin_ml": 350
+   },
+   "mopping": {
+    "waterTank_ml": 300,
+    "type": "PAD_STATIC"
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "station": {
+    "autoEmpty": true,
+    "width_mm": 296,
+    "depth_mm": 440,
+    "height_mm": 427
+   },
+   "battery": {
+    "capacity_mAh": 5200,
+    "runtimeMin": 260
+   },
+   "navigation": {
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "mova-s70-roller",
+   "brand": "Mova",
+   "model": "S70 Roller",
+   "status": "AVAILABLE",
+   "priceUvpCent": 59900,
+   "priceStreetCent": 39900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 28000,
+    "dustBin_ml": 240
+   },
+   "mopping": {
+    "type": "ROLLER",
+    "mopLift_mm": 12
+   },
+   "navigation": {
+    "type": "DTOF"
+   },
+   "dimensions": {
+    "height_mm": 90,
+    "diameter_mm": 350
+   },
+   "station": {
+    "mopWash": true,
+    "width_mm": 340,
+    "depth_mm": 255,
+    "height_mm": 503,
+    "mopWashTemp_c": 80,
+    "autoEmpty": true
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "mova-s70-ultra-roller",
+   "brand": "Mova",
+   "model": "S70 Ultra Roller",
+   "status": "AVAILABLE",
+   "priceUvpCent": 99900,
+   "priceStreetCent": 59900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 32000,
+    "dustBin_ml": 240
+   },
+   "mopping": {
+    "type": "ROLLER",
+    "mopLift_mm": 12
+   },
+   "navigation": {
+    "type": "DTOF"
+   },
+   "dimensions": {
+    "height_mm": 92,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "doubleThreshold_mm": 40,
+    "maxThreshold_mm": 30
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 340,
+    "depth_mm": 456,
+    "height_mm": 496,
+    "mopWashTemp_c": 100
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "mova-v50-ultra-complete",
+   "brand": "Mova",
+   "model": "V50 Ultra Complete",
+   "status": "AVAILABLE",
+   "priceUvpCent": 99900,
+   "priceStreetCent": 52900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 24000,
+    "dustBin_ml": 300
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 90,
+    "heightMax_mm": 111,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 42,
+    "doubleThreshold_mm": 60,
+    "liftMechanism": true
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 420,
+    "depth_mm": 458,
+    "height_mm": 470,
+    "mopWashTemp_c": 60
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 10,
+    "mopExtension": true
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "mova-v70-ultra-complete",
+   "brand": "Mova",
+   "model": "V70 Ultra Complete",
+   "status": "AVAILABLE",
+   "priceUvpCent": 139900,
+   "priceStreetCent": 94900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 40000
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE"
+   },
+   "dimensions": {
+    "height_mm": 88,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "doubleThreshold_mm": 90,
+    "liftMechanism": true,
+    "maxThreshold_mm": 50
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 420,
+    "depth_mm": 458,
+    "height_mm": 470,
+    "mopWashTemp_c": 100
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 10,
+    "mopExtension": true
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "mova-v70-ultra-complete-x",
+   "brand": "Mova",
+   "model": "V70 Ultra Complete X",
+   "status": "AVAILABLE",
+   "priceStreetCent": 139900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 40000
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE"
+   },
+   "dimensions": {
+    "height_mm": 88,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "doubleThreshold_mm": 90,
+    "liftMechanism": true,
+    "maxThreshold_mm": 50
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 420,
+    "depth_mm": 458,
+    "height_mm": 470,
+    "mopWashTemp_c": 100
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 10,
+    "mopExtension": true
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "mova-v70-ultra-pure",
+   "brand": "Mova",
+   "model": "V70 Ultra Pure",
+   "status": "AVAILABLE",
+   "priceStreetCent": 99900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 40000
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE"
+   },
+   "dimensions": {
+    "height_mm": 88,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "doubleThreshold_mm": 60,
+    "liftMechanism": true
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 420,
+    "depth_mm": 458,
+    "height_mm": 470,
+    "mopWashTemp_c": 100
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 10,
+    "mopExtension": true
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "mova-z50-ultra",
+   "brand": "Mova",
+   "model": "Z50 Ultra",
+   "status": "AVAILABLE",
+   "priceStreetCent": 74900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 19000,
+    "dustBin_ml": 300
+   },
+   "navigation": {
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 111,
+    "diameter_mm": 350
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "width_mm": 463,
+    "depth_mm": 390,
+    "height_mm": 545,
+    "mopWashTemp_c": 75
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "climbing": {
+    "maxThreshold_mm": 22
+   },
+   "mopping": {
+    "type": "ROLLER"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "mova-z60-ultra-roller-complete",
+   "brand": "Mova",
+   "model": "Z60 Ultra Roller Complete",
+   "status": "AVAILABLE",
+   "priceStreetCent": 119900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 28000,
+    "dustBin_ml": 210
+   },
+   "mopping": {
+    "type": "ROLLER",
+    "mopLift_mm": 14
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 96,
+    "heightMax_mm": 120,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 48,
+    "doubleThreshold_mm": 80,
+    "liftMechanism": true
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 420,
+    "depth_mm": 433,
+    "height_mm": 470
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "mova-z60-ultra-roller-standalone",
+   "brand": "Mova",
+   "model": "Z60 Ultra Roller Standalone",
+   "status": "AVAILABLE",
+   "priceUvpCent": 89900,
+   "priceStreetCent": 59900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 26000,
+    "dustBin_ml": 210
+   },
+   "mopping": {
+    "type": "ROLLER",
+    "mopLift_mm": 14
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 96,
+    "heightMax_mm": 120,
+    "diameter_mm": 350
+   },
+   "station": {
+    "width_mm": 420,
+    "depth_mm": 278,
+    "height_mm": 470,
+    "autoEmpty": true,
+    "mopWash": true
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "mova-z70-ultra-roller-complete",
+   "brand": "Mova",
+   "model": "Z70 Ultra Roller Complete",
+   "status": "AVAILABLE",
+   "priceUvpCent": 139900,
+   "priceStreetCent": 84900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 36000
+   },
+   "mopping": {
+    "type": "ROLLER",
+    "mopLift_mm": 13
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 96,
+    "heightMax_mm": 120,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "doubleThreshold_mm": 90,
+    "liftMechanism": true
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 420,
+    "depth_mm": 432,
+    "height_mm": 500,
+    "mopWashTemp_c": 100
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "narwal-flow",
+   "brand": "Narwal",
+   "model": "Flow",
+   "status": "AVAILABLE",
+   "priceUvpCent": 129900,
+   "priceStreetCent": 74900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 22000
+   },
+   "mopping": {
+    "type": "ROLLER"
+   },
+   "navigation": {
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 95,
+    "diameter_mm": 364
+   },
+   "climbing": {
+    "maxThreshold_mm": 30,
+    "doubleThreshold_mm": 40
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 430,
+    "depth_mm": 402,
+    "height_mm": 461,
+    "mopWashTemp_c": 80
+   },
+   "privacy": {
+    "matter": true
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "narwal-flow-2",
+   "brand": "Narwal",
+   "model": "Flow 2",
+   "status": "AVAILABLE",
+   "priceUvpCent": 129900,
+   "priceStreetCent": 107900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 31000
+   },
+   "mopping": {
+    "type": "ROLLER"
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 95,
+    "diameter_mm": 364
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 360,
+    "depth_mm": 450,
+    "height_mm": 530
+   },
+   "noise": {
+    "dbStandard": 57
+   },
+   "climbing": {
+    "maxThreshold_mm": 40
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "narwal-freo-20",
+   "brand": "Narwal",
+   "model": "Freo 20",
+   "status": "AVAILABLE",
+   "priceUvpCent": 99900,
+   "priceStreetCent": 84900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 31000
+   },
+   "dimensions": {
+    "height_mm": 95,
+    "diameter_mm": 364
+   },
+   "climbing": {
+    "doubleThreshold_mm": 40,
+    "maxThreshold_mm": 40
+   },
+   "station": {
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 431,
+    "depth_mm": 402,
+    "height_mm": 461,
+    "mopWashTemp_c": 100,
+    "autoEmpty": true
+   },
+   "navigation": {
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "narwal-freo-20-edge",
+   "brand": "Narwal",
+   "model": "Freo 20 Edge",
+   "status": "AVAILABLE",
+   "priceUvpCent": 79900,
+   "priceStreetCent": 59900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 31000
+   },
+   "dimensions": {
+    "height_mm": 95,
+    "diameter_mm": 364
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 360,
+    "depth_mm": 450,
+    "height_mm": 530
+   },
+   "noise": {
+    "dbStandard": 59
+   },
+   "mopping": {
+    "type": "ROLLER"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "narwal-freo-z10-ultra",
+   "brand": "Narwal",
+   "model": "Freo Z10 Ultra",
+   "status": "AVAILABLE",
+   "priceUvpCent": 129900,
+   "priceStreetCent": 53900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 18000
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 110,
+    "diameter_mm": 355
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 431,
+    "depth_mm": 388,
+    "height_mm": 462
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "roborock-q10-s5-plus",
+   "brand": "Roborock",
+   "model": "Q10 S5+",
+   "status": "AVAILABLE",
+   "priceStreetCent": 36000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 10000
+   },
+   "mopping": {
+    "type": "PAD_VIBRATING"
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 99,
+    "diameter_mm": 353
+   },
+   "station": {
+    "autoEmpty": true,
+    "width_mm": 212,
+    "depth_mm": 178,
+    "height_mm": 259
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "maintenance": {
+    "warrantyMonths": 24
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "roborock-q7-l5-plus",
+   "brand": "Roborock",
+   "model": "Q7 L5+",
+   "status": "AVAILABLE",
+   "priceStreetCent": 18000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 8000
+   },
+   "mopping": {
+    "type": "PAD_STATIC"
+   },
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 99,
+    "diameter_mm": 325
+   },
+   "station": {
+    "autoEmpty": true,
+    "width_mm": 212,
+    "depth_mm": 178,
+    "height_mm": 259
+   },
+   "battery": {
+    "runtimeMin": 150,
+    "capacity_mAh": 3200
+   },
+   "maintenance": {
+    "warrantyMonths": 24
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "verified": false,
+   "affiliateLinks": []
   },
   {
    "id": "roborock-q7-max-plus",
@@ -534,6 +3976,535 @@
    "verified": false
   },
   {
+   "id": "roborock-qrevo-curv-2-flow",
+   "brand": "Roborock",
+   "model": "Qrevo Curv 2 Flow",
+   "status": "AVAILABLE",
+   "priceStreetCent": 89900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 20000
+   },
+   "mopping": {
+    "type": "ROLLER",
+    "mopLift_mm": 15
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 119,
+    "diameter_mm": 353
+   },
+   "station": {
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "mopWashTemp_c": 75,
+    "width_mm": 450,
+    "depth_mm": 450,
+    "height_mm": 450,
+    "autoEmpty": true
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "maintenance": {
+    "warrantyMonths": 24
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "roborock-qrevo-curv-2-pro",
+   "brand": "Roborock",
+   "model": "Qrevo Curv 2 Pro",
+   "status": "AVAILABLE",
+   "priceStreetCent": 79900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 25000
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "carpetMopHandling": "DETACH"
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 80,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "liftMechanism": true,
+    "doubleThreshold_mm": 40,
+    "maxThreshold_mm": 30
+   },
+   "station": {
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "mopWashTemp_c": 100,
+    "width_mm": 450,
+    "depth_mm": 450,
+    "height_mm": 450,
+    "autoEmpty": true
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "noise": {
+    "dbStandard": 63
+   },
+   "maintenance": {
+    "warrantyMonths": 24
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "roborock-qrevo-curvx",
+   "brand": "Roborock",
+   "model": "Qrevo CurvX",
+   "status": "AVAILABLE",
+   "priceStreetCent": 79900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 22000
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopExtension": true
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 80,
+    "diameter_mm": 350,
+    "weight_g": 4420
+   },
+   "climbing": {
+    "liftMechanism": true,
+    "doubleThreshold_mm": 40
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoRefill": true,
+    "mopWashTemp_c": 80,
+    "width_mm": 450,
+    "depth_mm": 450,
+    "height_mm": 450
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "noise": {
+    "dbStandard": 62
+   },
+   "privacy": {
+    "matter": true
+   },
+   "maintenance": {
+    "warrantyMonths": 24
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "roborock-qrevo-edge-2",
+   "brand": "Roborock",
+   "model": "Qrevo Edge 2",
+   "status": "AVAILABLE",
+   "priceStreetCent": 89000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 25000
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "dimensions": {
+    "height_mm": 80,
+    "diameter_mm": 352,
+    "weight_g": 4500
+   },
+   "station": {
+    "width_mm": 340,
+    "depth_mm": 487,
+    "height_mm": 521,
+    "autoEmpty": true
+   },
+   "maintenance": {
+    "warrantyMonths": 24
+   },
+   "navigation": {
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "roborock-qrevo-edge-s5a",
+   "brand": "Roborock",
+   "model": "Qrevo Edge S5A",
+   "status": "AVAILABLE",
+   "priceStreetCent": 50000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 18500
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 98,
+    "diameter_mm": 352,
+    "weight_g": 3900
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "autoRefill": true,
+    "mopWashTemp_c": 75,
+    "width_mm": 340,
+    "depth_mm": 487,
+    "height_mm": 521
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "maintenance": {
+    "warrantyMonths": 24
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "roborock-qrevo-master",
+   "brand": "Roborock",
+   "model": "Qrevo Master",
+   "status": "AVAILABLE",
+   "priceStreetCent": 79900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 10000,
+    "mainBrush": "DUAL_RUBBER"
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 103,
+    "diameter_mm": 350
+   },
+   "station": {
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 340,
+    "depth_mm": 487,
+    "height_mm": 521,
+    "autoEmpty": true
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "maintenance": {
+    "warrantyMonths": 24
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "roborock-qrevo-pro",
+   "brand": "Roborock",
+   "model": "Qrevo Pro",
+   "status": "AVAILABLE",
+   "priceStreetCent": 62000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 7000
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 350
+   },
+   "station": {
+    "width_mm": 340,
+    "depth_mm": 487,
+    "height_mm": 521,
+    "autoEmpty": true
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "maintenance": {
+    "warrantyMonths": 24
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "roborock-qrevo-s",
+   "brand": "Roborock",
+   "model": "Qrevo S",
+   "status": "AVAILABLE",
+   "priceStreetCent": 50000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 7000
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 350
+   },
+   "station": {
+    "autoRefill": true,
+    "width_mm": 340,
+    "depth_mm": 487,
+    "height_mm": 521,
+    "autoEmpty": true
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "maintenance": {
+    "warrantyMonths": 24
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "roborock-qrevo-s-pro",
+   "brand": "Roborock",
+   "model": "Qrevo S Pro",
+   "status": "AVAILABLE",
+   "priceStreetCent": 40000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 18500
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 350
+   },
+   "station": {
+    "width_mm": 340,
+    "depth_mm": 487,
+    "height_mm": 519,
+    "autoEmpty": true
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "maintenance": {
+    "warrantyMonths": 24
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "roborock-qv-35a",
+   "brand": "Roborock",
+   "model": "QV 35A",
+   "status": "AVAILABLE",
+   "priceStreetCent": 30000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 8000
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 350
+   },
+   "station": {
+    "width_mm": 340,
+    "depth_mm": 487,
+    "height_mm": 519,
+    "autoEmpty": true
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "maintenance": {
+    "warrantyMonths": 24
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "roborock-qv-35s",
+   "brand": "Roborock",
+   "model": "QV 35S",
+   "status": "AVAILABLE",
+   "priceStreetCent": 33000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 10000
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "maintenance": {
+    "warrantyMonths": 24
+   },
+   "station": {
+    "autoEmpty": true,
+    "width_mm": 340,
+    "depth_mm": 487,
+    "height_mm": 521
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "roborock-s8-maxv-ultra",
+   "brand": "Roborock",
+   "model": "S8 MaxV Ultra",
+   "status": "AVAILABLE",
+   "priceStreetCent": 109900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 10000
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 103,
+    "diameter_mm": 350
+   },
+   "station": {
+    "mopWash": true,
+    "mopWashTemp_c": 60,
+    "width_mm": 419,
+    "depth_mm": 409,
+    "height_mm": 470,
+    "autoEmpty": true
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "maintenance": {
+    "warrantyMonths": 24
+   },
+   "mopping": {
+    "type": "PAD_VIBRATING"
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "roborock-saros-10",
+   "brand": "Roborock",
+   "model": "Saros 10",
+   "status": "AVAILABLE",
+   "priceStreetCent": 89900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 22000
+   },
+   "mopping": {
+    "type": "PAD_VIBRATING"
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 80,
+    "heightMax_mm": 94
+   },
+   "climbing": {
+    "maxThreshold_mm": 30
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "width_mm": 440,
+    "depth_mm": 409,
+    "height_mm": 470,
+    "mopWashTemp_c": 80
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
    "id": "roborock-saros-10r",
    "brand": "Roborock",
    "model": "Saros 10R",
@@ -610,6 +4581,751 @@
    "verified": false
   },
   {
+   "id": "roborock-saros-20",
+   "brand": "Roborock",
+   "model": "Saros 20",
+   "status": "AVAILABLE",
+   "priceStreetCent": 148900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 36000
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopExtension": true,
+    "carpetMopHandling": "DETACH"
+   },
+   "navigation": {
+    "type": "DTOF",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 80,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "liftMechanism": true,
+    "doubleThreshold_mm": 88,
+    "maxThreshold_mm": 45
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "mopWashTemp_c": 100,
+    "width_mm": 381,
+    "depth_mm": 475,
+    "height_mm": 488
+   },
+   "battery": {
+    "runtimeMin": 200,
+    "capacity_mAh": 6400
+   },
+   "noise": {
+    "dbStandard": 63
+   },
+   "maintenance": {
+    "warrantyMonths": 24
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "roborock-saros-20-sonic",
+   "brand": "Roborock",
+   "model": "Saros 20 Sonic",
+   "status": "AVAILABLE",
+   "priceStreetCent": 99900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 36000
+   },
+   "mopping": {
+    "type": "PAD_VIBRATING",
+    "mopExtension": true
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 80,
+    "diameter_mm": 350
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "mopWashTemp_c": 100,
+    "autoDetergent": true,
+    "width_mm": 409,
+    "depth_mm": 440,
+    "height_mm": 470
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "noise": {
+    "dbStandard": 63
+   },
+   "privacy": {
+    "matter": true
+   },
+   "maintenance": {
+    "warrantyMonths": 24
+   },
+   "climbing": {
+    "maxThreshold_mm": 45,
+    "doubleThreshold_mm": 88,
+    "liftMechanism": true
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "roborock-saros-z70",
+   "brand": "Roborock",
+   "model": "Saros Z70",
+   "status": "AVAILABLE",
+   "priceStreetCent": 71900,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 22000
+   },
+   "dimensions": {
+    "height_mm": 80,
+    "diameter_mm": 350,
+    "weight_g": 4900
+   },
+   "station": {
+    "mopWash": true,
+    "mopWashTemp_c": 80,
+    "autoEmpty": true,
+    "width_mm": 475,
+    "depth_mm": 488,
+    "height_mm": 381
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "maintenance": {
+    "warrantyMonths": 24
+   },
+   "editorNote": "Mit Roboterarm, der kleine Gegenst\u00e4nde wie Socken beiseiter\u00e4umt.",
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "navigation": {
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "climbing": {
+    "doubleThreshold_mm": 40
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "rowenta-x-plorer-serie-130-ai",
+   "brand": "Rowenta",
+   "model": "X-Plorer Serie 130 AI",
+   "status": "AVAILABLE",
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 80
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "rowenta-x-plorer-serie-220-plus",
+   "brand": "Rowenta",
+   "model": "X-Plorer Serie 220+",
+   "status": "AVAILABLE",
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 97
+   },
+   "station": {
+    "autoEmpty": true
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "samsung-bespoke-jet-bot-combo",
+   "brand": "Samsung",
+   "model": "Bespoke Jet Bot Combo",
+   "status": "AVAILABLE",
+   "priceUvpCent": 144900,
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 100,
+    "diameter_mm": 364,
+    "weight_g": 4800
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true
+   },
+   "battery": {
+    "runtimeMin": 180
+   },
+   "suction": {
+    "dustBin_ml": 250
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "samsung-bespoke-jet-bot-combo-ai",
+   "brand": "Samsung",
+   "model": "Bespoke Jet Bot Combo AI",
+   "status": "AVAILABLE",
+   "priceUvpCent": 179900,
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 100,
+    "diameter_mm": 364,
+    "weight_g": 4800
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true
+   },
+   "battery": {
+    "runtimeMin": 180
+   },
+   "suction": {
+    "dustBin_ml": 250
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "shark-matrix-plus-2in1",
+   "brand": "Shark",
+   "model": "Matrix Plus 2in1",
+   "status": "AVAILABLE",
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 105,
+    "diameter_mm": 340,
+    "weight_g": 3500
+   },
+   "station": {
+    "autoEmpty": true,
+    "width_mm": 380,
+    "depth_mm": 500,
+    "height_mm": 150
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "shark-powerdetect-nevertouch-pro-2in1",
+   "brand": "Shark",
+   "model": "PowerDetect NeverTouch Pro 2in1",
+   "status": "AVAILABLE",
+   "priceUvpCent": 80000,
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 97
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "switchbot-k10-plus-pro",
+   "brand": "SwitchBot",
+   "model": "K10+ Pro",
+   "status": "AVAILABLE",
+   "priceStreetCent": 55000,
+   "priceDate": "2026-10-29",
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 92,
+    "diameter_mm": 248
+   },
+   "station": {
+    "autoEmpty": true
+   },
+   "noise": {
+    "dbStandard": 45
+   },
+   "mopping": {
+    "type": "PAD_STATIC"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "switchbot-k11-plus",
+   "brand": "SwitchBot",
+   "model": "K11+",
+   "status": "AVAILABLE",
+   "priceStreetCent": 40000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 6000
+   },
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 99,
+    "diameter_mm": 248
+   },
+   "station": {
+    "autoEmpty": true
+   },
+   "battery": {
+    "capacity_mAh": 3200
+   },
+   "editorNote": "Sehr kompakter Roboter (24,8 cm) f\u00fcr enge R\u00e4ume.",
+   "climbing": {
+    "maxThreshold_mm": 17
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "switchbot-k11-plus-pro",
+   "brand": "SwitchBot",
+   "model": "K11+ Pro",
+   "status": "AVAILABLE",
+   "priceStreetCent": 40000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 12000
+   },
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 92,
+    "diameter_mm": 248
+   },
+   "station": {
+    "autoEmpty": true,
+    "width_mm": 240,
+    "depth_mm": 180,
+    "height_mm": 250
+   },
+   "battery": {
+    "capacity_mAh": 3500
+   },
+   "noise": {
+    "dbStandard": 45
+   },
+   "editorNote": "Sehr kompakter Roboter (24,8 cm) f\u00fcr enge R\u00e4ume.",
+   "mopping": {
+    "type": "PAD_STATIC"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "switchbot-k20-plus-pro",
+   "brand": "SwitchBot",
+   "model": "K20+ Pro",
+   "status": "AVAILABLE",
+   "priceStreetCent": 60000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 4000
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 92,
+    "diameter_mm": 248
+   },
+   "station": {
+    "autoEmpty": true
+   },
+   "battery": {
+    "capacity_mAh": 3500
+   },
+   "editorNote": "Sehr kompakter Roboter (24,8 cm), der als Plattform f\u00fcr Zusatzmodule dient.",
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "mopping": {
+    "type": "PAD_STATIC"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "switchbot-s10",
+   "brand": "SwitchBot",
+   "model": "S10",
+   "status": "AVAILABLE",
+   "priceStreetCent": 110000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 6500
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 115,
+    "diameter_mm": 365
+   },
+   "station": {
+    "mopWash": true,
+    "autoRefill": true,
+    "waterConnectionKit": true,
+    "width_mm": 260,
+    "depth_mm": 207,
+    "height_mm": 412
+   },
+   "editorNote": "F\u00fcllt Wasser \u00fcber eine separate Wasserstation am Wasseranschluss nach und leert es ab.",
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "switchbot-s20",
+   "brand": "SwitchBot",
+   "model": "S20",
+   "status": "AVAILABLE",
+   "priceStreetCent": 80000,
+   "priceDate": "2026-10-29",
+   "suction": {
+    "maxPa": 10000
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 115,
+    "diameter_mm": 365
+   },
+   "station": {
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "autoEmpty": true
+   },
+   "battery": {
+    "capacity_mAh": 4000
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "mopping": {
+    "type": "ROLLER"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "tapo-rv20-max-plus",
+   "brand": "Tapo",
+   "model": "RV20 Max Plus",
+   "status": "AVAILABLE",
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 83,
+    "diameter_mm": 330
+   },
+   "station": {
+    "autoEmpty": true
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "tapo-rv30-max-plus",
+   "brand": "Tapo",
+   "model": "RV30 Max Plus",
+   "status": "AVAILABLE",
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 102
+   },
+   "station": {
+    "autoEmpty": true
+   },
+   "climbing": {
+    "maxThreshold_mm": 22
+   },
+   "suction": {
+    "maxPa": 5300
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "vorwerk-kobold-vr7",
+   "brand": "Vorwerk",
+   "model": "Kobold VR7",
+   "status": "AVAILABLE",
+   "priceUvpCent": 99900,
+   "suction": {
+    "dustBin_ml": 480
+   },
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 99,
+    "diameter_mm": 349,
+    "weight_g": 5000
+   },
+   "mopping": {
+    "type": "NONE"
+   },
+   "station": {
+    "autoEmpty": false,
+    "mopWash": false
+   },
+   "battery": {
+    "runtimeMin": 60
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "xiaomi-robot-vacuum-5",
+   "brand": "Xiaomi",
+   "model": "Robot Vacuum 5",
+   "status": "AVAILABLE",
+   "suction": {
+    "maxPa": 20000
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 88,
+    "diameter_mm": 350
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "mopWashTemp_c": 80,
+    "width_mm": 360,
+    "depth_mm": 470,
+    "height_mm": 572
+   },
+   "battery": {
+    "capacity_mAh": 4800
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "xiaomi-robot-vacuum-5-pro",
+   "brand": "Xiaomi",
+   "model": "Robot Vacuum 5 Pro",
+   "status": "AVAILABLE",
+   "suction": {
+    "maxPa": 20000
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 88,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "mopWashTemp_c": 80,
+    "width_mm": 360,
+    "depth_mm": 470,
+    "height_mm": 572
+   },
+   "battery": {
+    "capacity_mAh": 4800
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "xiaomi-robot-vacuum-6",
+   "brand": "Xiaomi",
+   "model": "Robot Vacuum 6",
+   "status": "AVAILABLE",
+   "suction": {
+    "maxPa": 30000
+   },
+   "mopping": {
+    "type": "ROLLER"
+   },
+   "navigation": {
+    "type": "CAMERA",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 90,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 40
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "mopWashTemp_c": 80,
+    "width_mm": 347,
+    "depth_mm": 470,
+    "height_mm": 550
+   },
+   "battery": {
+    "capacity_mAh": 4800
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "xiaomi-robot-vacuum-6-max",
+   "brand": "Xiaomi",
+   "model": "Robot Vacuum 6 Max",
+   "status": "AVAILABLE",
+   "suction": {
+    "maxPa": 35000
+   },
+   "mopping": {
+    "type": "ROLLER"
+   },
+   "navigation": {
+    "type": "LIDAR_RETRACTABLE",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 90,
+    "diameter_mm": 350
+   },
+   "climbing": {
+    "maxThreshold_mm": 60,
+    "liftMechanism": true
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 289,
+    "depth_mm": 360,
+    "height_mm": 582,
+    "mopWashTemp_c": 85
+   },
+   "battery": {
+    "capacity_mAh": 6400
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "xiaomi-robot-vacuum-e5",
+   "brand": "Xiaomi",
+   "model": "Robot Vacuum E5",
+   "status": "AVAILABLE",
+   "suction": {
+    "maxPa": 2000,
+    "dustBin_ml": 400
+   },
+   "dimensions": {
+    "height_mm": 70,
+    "diameter_mm": 300
+   },
+   "battery": {
+    "capacity_mAh": 2500
+   },
+   "editorNote": "Einsteigermodell mit nur 7 cm H\u00f6he.",
+   "mopping": {
+    "type": "PAD_STATIC"
+   },
+   "station": {
+    "autoEmpty": false,
+    "mopWash": false,
+    "autoRefill": false
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "xiaomi-robot-vacuum-h40",
+   "brand": "Xiaomi",
+   "model": "Robot Vacuum H40",
+   "status": "AVAILABLE",
+   "suction": {
+    "maxPa": 10000
+   },
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 340
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "station": {
+    "mopWash": true,
+    "width_mm": 340,
+    "depth_mm": 160,
+    "height_mm": 326,
+    "autoEmpty": true
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
    "id": "xiaomi-robot-vacuum-s20",
    "brand": "Xiaomi",
    "model": "Robot Vacuum S20",
@@ -681,6 +5397,196 @@
    "editorNote": "Budget-Modell ohne Station \u2013 Testfall f\u00fcr 'keine Station' und kleine Wohnungen.",
    "status": "AVAILABLE",
    "verified": false
+  },
+  {
+   "id": "xiaomi-robot-vacuum-s20-plus",
+   "brand": "Xiaomi",
+   "model": "Robot Vacuum S20+",
+   "status": "AVAILABLE",
+   "suction": {
+    "maxPa": 6000
+   },
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 350
+   },
+   "battery": {
+    "capacity_mAh": 4800
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "station": {
+    "autoEmpty": false,
+    "mopWash": false,
+    "autoRefill": false
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "xiaomi-robot-vacuum-s40",
+   "brand": "Xiaomi",
+   "model": "Robot Vacuum S40",
+   "status": "AVAILABLE",
+   "suction": {
+    "maxPa": 10000
+   },
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 98,
+    "diameter_mm": 340
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "battery": {
+    "capacity_mAh": 5200
+   },
+   "mopping": {
+    "type": "PAD_STATIC"
+   },
+   "station": {
+    "autoEmpty": false,
+    "mopWash": false,
+    "autoRefill": false
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "xiaomi-robot-vacuum-s40c",
+   "brand": "Xiaomi",
+   "model": "Robot Vacuum S40C",
+   "status": "AVAILABLE",
+   "suction": {
+    "maxPa": 5000
+   },
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 340
+   },
+   "battery": {
+    "capacity_mAh": 2400
+   },
+   "climbing": {
+    "maxThreshold_mm": 20
+   },
+   "mopping": {
+    "type": "PAD_STATIC"
+   },
+   "station": {
+    "autoEmpty": false,
+    "mopWash": false,
+    "autoRefill": false
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "xiaomi-robot-vacuum-x10-plus",
+   "brand": "Xiaomi",
+   "model": "Robot Vacuum X10+",
+   "status": "AVAILABLE",
+   "suction": {
+    "maxPa": 4000
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "AI_CAMERA"
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 350
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "width_mm": 340,
+    "depth_mm": 423,
+    "height_mm": 568
+   },
+   "mopping": {
+    "type": "ROTATING_PADS"
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "xiaomi-robot-vacuum-x20-max",
+   "brand": "Xiaomi",
+   "model": "Robot Vacuum X20 Max",
+   "status": "AVAILABLE",
+   "suction": {
+    "maxPa": 8000
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 350
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 340,
+    "depth_mm": 420,
+    "height_mm": 563
+   },
+   "battery": {
+    "capacity_mAh": 4800
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopExtension": true
+   },
+   "verified": false,
+   "affiliateLinks": []
+  },
+  {
+   "id": "xiaomi-robot-vacuum-x20-pro",
+   "brand": "Xiaomi",
+   "model": "Robot Vacuum X20 Pro",
+   "status": "AVAILABLE",
+   "suction": {
+    "maxPa": 7000
+   },
+   "navigation": {
+    "type": "LIDAR",
+    "obstacleAvoidance": "STRUCTURED_LIGHT"
+   },
+   "dimensions": {
+    "height_mm": 97,
+    "diameter_mm": 350
+   },
+   "station": {
+    "autoEmpty": true,
+    "mopWash": true,
+    "mopDryHotAir": true,
+    "width_mm": 340,
+    "depth_mm": 420,
+    "height_mm": 563
+   },
+   "battery": {
+    "capacity_mAh": 4800
+   },
+   "mopping": {
+    "type": "ROTATING_PADS",
+    "mopLift_mm": 10
+   },
+   "verified": false,
+   "affiliateLinks": []
   },
   {
    "id": "xiaomi-robot-vacuum-x20-plus",
@@ -757,6 +5663,32 @@
    "editorNote": "G\u00fcnstige Vollstation, schw\u00e4cher bei Teppich und Tierhaaren.",
    "status": "AVAILABLE",
    "verified": false
+  },
+  {
+   "id": "yeedi-c12",
+   "brand": "Yeedi",
+   "model": "C12",
+   "status": "AVAILABLE",
+   "priceUvpCent": 29900,
+   "navigation": {
+    "type": "LIDAR"
+   },
+   "dimensions": {
+    "height_mm": 96,
+    "diameter_mm": 353
+   },
+   "mopping": {
+    "type": "PAD_STATIC"
+   },
+   "station": {
+    "autoEmpty": false,
+    "mopWash": false
+   },
+   "suction": {
+    "dustBin_ml": 400
+   },
+   "verified": false,
+   "affiliateLinks": []
   }
  ]
 }
